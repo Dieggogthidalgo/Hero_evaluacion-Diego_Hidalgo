@@ -1,0 +1,67 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.fondo{
+    background: url(../evaluación/img/Diego\ Hidalgo.png)fixed center/cover;
+    height: 600px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.fondo::before{
+    content: "";
+    height: 100%;
+    width: 100%;
+    background: #C43A8D;
+    opacity: 0.5;
+}
+.fondo__info{
+    padding: 0.3em;
+    position: absolute;
+    width: 100%;
+    max-width: 700px;
+    text-align: center;
+    color: #fff;
+    margin: auto;
+}
+.fondo__titulo{
+    line-height: 1.5;
+    font-size: 2em;
+    font-family: sans-serif;
+}
+.fondo__p{
+    align-content: center;
+    line-height: 2;
+    font-size: 0.7em;
+    font-family: sans-serif;
+}
+.skill{
+    display: flex;
+    margin: auto;
+    width: 1100px;
+    padding: 100px 0;
+}
+.skilhtml{
+    align-content: center;
+    line-height: 2;
+    font-size: 1em;
+    font-family: sans-serif;
+    color: aliceblue;
+}
+.skilcss{
+    align-content: center;
+    line-height: 2;
+    font-size: 1em;
+    font-family: sans-serif;
+    color: aliceblue;
+}
+.skiltotal{
+    align-content: center;
+    line-height: 2;
+    font-size: 1em;
+    font-family: sans-serif;
+    color: aliceblue;
+}
